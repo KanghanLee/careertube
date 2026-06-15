@@ -1,1 +1,68 @@
-
+[
+  {
+    "job": "AI Engineer",
+    "description": "Builds artificial intelligence systems using machine learning and deep learning.",
+    "keywords": [
+      "ai",
+      "machine learning",
+      "deep learning",
+      "python",
+      "neural network"
+    ]
+  },
+  {
+    "job": "Data Scientist",
+    "description": "Analyzes data and creates predictive models.",
+    "keywords": [
+      "data",
+      "statistics",
+      "python",
+      "analytics",
+      "visualization"
+    ]
+  },
+  {
+    "job": "Backend Developer",
+    "description": "Develops servers, APIs, and databases.",
+    "keywords": [
+      "server",
+      "database",
+      "api",
+      "python",
+      "backend"
+    ]
+  },
+  {
+    "job": "Frontend Developer",
+    "description": "Builds web user interfaces and user experiences.",
+    "keywords": [
+      "javascript",
+      "html",
+      "css",
+      "frontend",
+      "react"
+    ]
+  },
+  {
+    "job": "Product Manager",
+    "description": "Plans and manages digital products and business strategy.",
+    "keywords": [
+      "business",
+      "startup",
+      "strategy",
+      "marketing",
+      "management"
+    ]
+  },
+  {
+    "job": "UX Designer",
+    "description": "Designs user experiences and interfaces.",
+    "keywords": [
+      "ux",
+      "ui",
+      "design",
+      "prototype",
+      "user research"
+    ]
+  }
+]
