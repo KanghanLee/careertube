@@ -727,10 +727,14 @@ def analyze():
 # 서버 실행
 # ============================================================
 if __name__ == "__main__":
-    port  = int(os.getenv("PORT", 5000))
-    debug = os.getenv("FLASK_ENV", "development") == "development"
-    print(f"CareerTube Backend v3.3 -- http://localhost:{port}")
-    print(f"  키워드: Interest Intensity Score + Bigram + 해시태그 필터 (min DF=3, 60개)")
-    print(f"  점수: top job → 82% 기준 정규화")
-    print(f"  클러스터: {len(CONTENT_CLUSTERS)}개 + SDT 심리 동기")
-    app.run(host="0.0.0.0", port=port, debug=debug)
+    port = int(os.getenv("PORT", 5000))
+
+    debug = False  # 🚨 Render에서는 무조건 False
+
+    print(f"CareerTube Backend running on port {port}")
+
+    app.run(
+        host="0.0.0.0",
+        port=port,
+        debug=debug
+    )
